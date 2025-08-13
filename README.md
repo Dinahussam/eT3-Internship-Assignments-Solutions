@@ -13,6 +13,7 @@ A script that organizes files in a given folder into categorized subfolders such
 
 ### How to Run
 ```bash
+cd File_Organizer
 python File_Organizer.py
 ```
 You will be prompted to:
@@ -34,6 +35,7 @@ A simple task manager that runs in the terminal, stores tasks in a JSON file, an
 
 ### How to Run
 ```bash
+cd Command-Line_To-Do_App
 python Command-Line_To-Do_App.py
 ```
 Then use the following commands:
@@ -58,6 +60,7 @@ Reads a `.txt` file, counts the frequency of words, and displays the top 10 most
 
 ### How to Run
 ```bash
+cd Word_Frequency_Analyzer
 python Word_Frequency_Analyzer.py
 ```
 You will be prompted to:
