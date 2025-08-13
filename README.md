@@ -78,8 +78,13 @@ You will be prompted to:
 ## Language & Tools Used
 - **Language:** Python 3.10+
 - **Libraries:**
-  - `pathlib`, `shutil`, `collections`, `json`, `datetime`, `zoneinfo`, `tzdata`, `re` – standard library
-  - `matplotlib` – for charts (optional)
+  - Standard library: pathlib, shutil, collections, json, datetime, zoneinfo, re
+  - External: matplotlib (optional, for charts), tzdata (for timezone support on some systems)
+ 
+  **Install external libraries:**
+  ```bash
+  pip install matplotlib
+  pip install tzdata
 
 ---
 
