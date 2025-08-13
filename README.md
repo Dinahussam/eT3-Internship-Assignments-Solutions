@@ -78,7 +78,7 @@ You will be prompted to:
 ## Language & Tools Used
 - **Language:** Python 3.10+
 - **Libraries:**
-  - `pathlib`, `shutil`, `collections`, `json`, `datetime`, `zoneinfo`, `re` – standard library
+  - `pathlib`, `shutil`, `collections`, `json`, `datetime`, `zoneinfo`, `tzdata`, `re` – standard library
   - `matplotlib` – for charts (optional)
 
 ---
