@@ -26,6 +26,11 @@ You will be prompted to:
 - **Bonus:** `simulate` mode to preview actions without moving files.
 - Handles duplicate file names by renaming.
 
+## Language & Tools Used
+- **Language:** Python 3.10+
+- **Libraries:**
+  - Standard library: shutil, pathlib, collections
+
 ---
 
 ## 2️⃣ Command-Line To-Do App (Option 2)
@@ -51,6 +56,16 @@ Then use the following commands:
 - **Bonus:** Supports priorities and tags.
 - Automatically reindexes task IDs after deletion.
 
+## Language & Tools Used
+- **Language:** Python 3.10+
+- **Libraries:**
+  - Standard library: json, pathlib, datetime, zoneinfo
+  - External: tzdata (for timezone support on some systems)
+ 
+  **Install external libraries:**
+  ```bash
+  pip install tzdata
+
 ---
 
 ## 3️⃣ Word Frequency Analyzer (Option 3)
@@ -73,18 +88,15 @@ You will be prompted to:
 - **Bonus:** Generates a bar chart of the top words (requires `matplotlib`).
 - Handles large files efficiently by streaming line by line.
 
----
-
 ## Language & Tools Used
 - **Language:** Python 3.10+
 - **Libraries:**
-  - Standard library: pathlib, shutil, collections, json, datetime, zoneinfo, re
-  - External: matplotlib (optional, for charts), tzdata (for timezone support on some systems)
+  - Standard library: re, collections, pathlib
+  - External: matplotlib (optional, for charts)
  
   **Install external libraries:**
   ```bash
   pip install matplotlib
-  pip install tzdata
 
 ---
 
